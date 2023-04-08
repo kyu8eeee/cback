@@ -5,7 +5,7 @@ setTimeout(function() {
   if (popupClosed) {
     popup.style.display = 'block';
   }
-}, 3000); 
+}, 5000); 
 
 link.addEventListener('click', function() {
   popupClosed = false;
@@ -13,7 +13,7 @@ link.addEventListener('click', function() {
     if (!window.closed) {
       popup.style.display = 'none';
     }
-  }, 5000);
+  }, 3000);
 });
 
 window.addEventListener('popstate', function(event) {
