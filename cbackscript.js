@@ -5,7 +5,7 @@ setTimeout(function() {
   if (popupClosed) {
     popup.style.display = 'block';
   }
-}, 5000); 
+}, 3000); 
 
 link.addEventListener('click', function() {
   popupClosed = false;
