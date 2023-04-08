@@ -13,7 +13,7 @@ link.addEventListener('click', function() {
     if (!window.closed) {
       popup.style.display = 'none';
     }
-  }, 3000);
+  }, 5000);
 });
 
 window.addEventListener('popstate', function(event) {
